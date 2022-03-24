@@ -2,7 +2,7 @@
 <p> {{ valorRecivido}}</p>
 <h2 class="text-center">Character List</h2>
   <div class="container mt-4">
-   <div class="row" >
+   <div class="row " >
     <div class="d-flex getresults" v-for="getresult of getresults" :key="getresult.id">
     
           <div class="col-6">
